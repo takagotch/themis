@@ -2,8 +2,9 @@
 ---
 https://github.com/cossacklabs/themis
 
+security
 
-```
+```sh
 wget -qO - httpsL//pkgs.cossacklabs.com/gpg | sudo apt-key add -
 sudo apt-get install apt-transport-https
 deb https://pkgs.cossacklabs.com/stable/$OS $RELEASE main
